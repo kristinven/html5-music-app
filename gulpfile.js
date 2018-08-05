@@ -67,7 +67,7 @@ gulp.task('watch', function() {
 
 gulp.task('connect', function() {
     connect.server({
-        port: '8081',
+        port: '8080',
         livereload: true
     })
 })
